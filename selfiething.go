@@ -24,7 +24,6 @@ func main() {
 
 	for xPos := img.Bounds().Min.X; xPos < img.Bounds().Max.X; xPos++ {
 		for yPos := img.Bounds().Min.Y; yPos < img.Bounds().Max.Y; yPos++ {
-
 			r, g, b, a := img.At(xPos, yPos).RGBA()
 
 			if (r+g+b)%3 == 0 {

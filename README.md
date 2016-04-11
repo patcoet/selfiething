@@ -1,1 +1,3 @@
 # selfiething
+Takes a picture and adds some visual corruption. Meant to be an app to use with
+selfies, eventually...
